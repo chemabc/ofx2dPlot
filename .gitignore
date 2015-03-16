@@ -1,0 +1,120 @@
+################## MIOS
+# ZIPs
+*.zip
+*.7z
+*.rar
+
+# no temporal files
+*.~
+*.cbTemp
+*.pdf
+
+#no libs ni ejecutables pero si los datos
+/bin/*
+!/bin/data
+!/bin/*.bat
+
+#no videos
+*.mp4
+*.avi
+*.mov
+*.mpg
+
+#no pictures
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.psd
+
+#codeblocks cositas
+*.depend
+*.layout
+
+#no zips
+*.zip
+
+
+############## C++
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.ex_
+
+############# Tipical OF 
+# Some general ignore patterns
+
+[Bb]uild/
+[Oo]bj/
+*.o
+[Dd]ebug*/
+[Rr]elease*/
+*.mode*
+*.app/
+*.pyc
+.svn/
+*.log
+
+# IDE-specific ignore patterns
+
+#XCode
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.mode1v3
+*.mode2v3
+#XCode 4
+xcuserdata
+*.xcworkspace
+
+#Code::Blocks
+*.depend
+*.layout
+
+#Visual Studio
+*.sdf
+*.opensdf
+*.suo
+*.pdb
+*.ilk
+*.aps
+ipch/
+
+#Eclipse
+.metadata
+local.properties
+.externalToolBuilders
+
+# OS-specific ignore patterns
+
+#Linux
+*~
+# KDE
+.directory
+.AppleDouble
+
+#OSX
+.DS_Store
+*.swp
+*~.nib
+# Thumbnails
+._*
+
